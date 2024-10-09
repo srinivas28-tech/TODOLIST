@@ -1,0 +1,94 @@
+.unorderList {
+  list-style-type: none;
+  padding: 0;
+}
+.checkBox {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.paraLine {
+  text-decoration: line-through;
+  text-decoration-color: #a43536;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.container {
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+.spanEle {
+  font-weight: bold;
+  color: #a43536;
+}
+.mainHeading {
+  font-size: 36px;
+  color: #45429a;
+  text-align: center;
+}
+.inputEle {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  resize: vertical;
+}
+.btnEle {
+  width: 35%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #45429a;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.delete-icon {
+  color: #141212;
+  font-size: 20px;
+  border: none;
+}
+.deleteBtn {
+  cursor: pointer;
+}
+.editBtn {
+  border: none;
+  cursor: pointer;
+  background-color: #a4daf1;
+}
+.taskContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  height: 40px;
+}
+.taskParaContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 30px;
+  width: 100%;
+  margin: 10px 0;
+  margin-left: 10px;
+  border-left: 10px solid #32b5ed;
+  background-color: #a4daf1;
+  color: #020a0e;
+  font-weight: 600;
+}
